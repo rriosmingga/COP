@@ -1,0 +1,160 @@
+/*--- Estilos Generales ---*/
+
+@font-face {
+  font-family: 'Museo Sans';
+  src: url('/wp-content/themes/cop/fonts/MuseoSans_500.otf');
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+	font-family: 'Museo Sans', Sans-Serif;
+	text-rendering: optimizeLegibility;
+}
+p {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.marcadordecajas {
+	border: 1px red solid;
+}
+
+#page {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+
+/*---- Navegación ----*/
+
+.navbox {
+	background: #C5C05A; 
+	height: 108px;
+}
+.navbox-centrador {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+.navbox-centrador .row .col-lg-3 img {
+	top: 0;
+    position: absolute;
+    
+}
+.navbox .navbox-centrador .row .col-lg-9 #menubox li {
+	 list-style: none;
+	 display: inline-block;
+ }
+ #menubox li a {
+	float: left;
+    font-family: 'Museo Sans', Sans-Serif;
+    font-size: 15px;
+    color: #FFF;
+    text-decoration: none;
+    padding: 7px 11px 7px 11px;
+    height: 43px;
+ }
+ #menubox li a:hover {
+	border-bottom: solid #D2482E 7px;
+ }
+ .navbox .navbox-centrador .row .col-lg-9 {
+	 top: 65px;
+ }
+
+/*---- Home ----*/
+
+.calugas-home-box {
+	margin: 30px 0;
+}
+.calugas-home-box .caluga-home {
+	height: 285px;
+	box-shadow: 1px 1px 4px 0px rgba(111,111,111,0.50);
+	border-radius: 2px;
+	max-width: 262px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.calugas-home-box .caluga-home a {
+	padding: 10px;
+	font-family: 'Museo Sans', Sans-Serif;
+	font-size: 16px;
+	line-height: 20px;
+	color: #D2482E;
+	text-decoration: none;
+	display: inline-block;
+}
+.calugas-home-box .caluga-home a:first-child {
+	padding: 0;
+}
+.calugas-home-box .caluga-home a.leermas-home {
+	padding: 10px;
+	font-size: 16px;
+	line-height: 19px;
+	color: #776259;
+    float: right;
+}
+.equipo-home .col-lg-5 h3 {
+	font-size: 30px;
+	color: #D2482E;
+	line-height: 36px;
+}
+.equipo-home .col-lg-5 p {
+	font-size: 17px;
+	line-height: 22px;
+}
+.leermas-btn {
+	position: relative;
+	background: #776259;
+	border: none;
+	color: #fff;
+	top: 90px;
+	float: right;
+	margin: 0 20px 0 0;
+	}
+.leermas-btn:hover {
+	background: #D2482E;
+	color: #fff;
+}
+.inputbox {
+    position: absolute;
+    z-index: 1000;
+    background: rgba(173, 94, 94, 0.64);
+    padding: 10px;
+    display: inline-block;
+    right: 40px;
+    top: 20em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
