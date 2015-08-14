@@ -46,17 +46,19 @@ get_header(); ?>
 			</div>
 			<div class="row testimonios-box">
 				<div class="col-lg-4">
-					<img src="img/PERASSOFONDO.png" alt="PERASSOFONDO" width="420" height="236" />
+					<img src="<?php bloginfo('template_url'); ?>/img/perasfondo2.png" alt="PERASSOFONDO" width="175" height="175" />
 					<h3 class="nombre-testimonio">Jos&eacute; Pablo Perasso</h3>
 					<span class="tratamiento">Procedimiento Supracor</span>
 					<p class="text-testimonio-home">“Cuando supe que COP ten&iacute;a una tecnolog&iacute;a para corregir en un solo paso mi presbicia e hipermetropía, no dudé en tomar la decisión. Ahora puedo decir que me cambi&oacute; la vida”.</p>
 				</div>
 				<div class="col-lg-4">
+					<img src="<?php bloginfo('template_url'); ?>/img/MARCELA.png" alt="PERASSOFONDO" width="175" height="175" />
 					<h3 class="nombre-testimonio">Marcela Gonz&aacute;lez</h3>
 					<span class="tratamiento">Catarata con l&aacute;ser</span>
 					<p class="text-testimonio-home">“Estoy muy contenta de haber tomado la decisión de intervenirme en COP. Me agradó la eficiencia y amabilidad de su personal, su prestigio y tecnología”.</p>
 				</div>
 				<div class="col-lg-4">
+					<img src="<?php bloginfo('template_url'); ?>/img/ANIBALBUSTAMANTE.png" alt="PERASSOFONDO" width="175" height="175" />
 					<h3 class="nombre-testimonio">Aníbal Bustamante</h3>
 					<span class="tratamiento">Cirug&iacute;a Lasik</span>
 					<p class="text-testimonio-home">“La intervención Lasik fue muy rápida y a las horas empecé a ver mejor. A la semana ya veía bien y a los meses, excelente. Estoy muy contento porque dejar los anteojos me facilita hacer muchas cosas”.</p>

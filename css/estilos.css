@@ -121,8 +121,20 @@ p {
     display: inline-block;
     right: 40px;
     top: 20em;
+    width: 20em;
 }
-
+.testimonios-box div.col-lg-4 img {
+	margin: 0px auto;
+	display: inherit;
+}
+.testimonios-box {
+	margin: 4em 0;
+}
+.testimonios-box div.col-lg-4 h3 {
+	font-size: 21px;
+	color: #D2482E;
+	line-height: 25px;
+}
 
 
 
