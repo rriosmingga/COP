@@ -21,8 +21,6 @@ p {
 	max-width: 1280px;
 	margin: 0 auto;
 }
-
-
 /*---- Navegación ----*/
 
 .navbox {
@@ -53,6 +51,7 @@ p {
  }
  #menubox li a:hover {
 	border-bottom: solid #D2482E 7px;
+	transition: 0.3s linear 0s;
  }
  .navbox .navbox-centrador .row .col-lg-9 {
 	 top: 65px;
@@ -70,8 +69,11 @@ p {
 	max-width: 262px;
 	margin: 0 auto;
 	overflow: hidden;
+	
 }
-
+.calugas-home-box .caluga-home:hover {
+	transition: box-shadow 0.3s linear 0s;
+}
 .calugas-home-box .caluga-home a {
 	padding: 10px;
 	font-family: 'Museo Sans', Sans-Serif;
@@ -123,6 +125,9 @@ p {
     top: 20em;
     width: 20em;
 }
+.testimonios-box div.col-lg-4 {
+	height: 40em;
+}
 .testimonios-box div.col-lg-4 img {
 	margin: 0px auto;
 	display: inherit;
@@ -134,10 +139,45 @@ p {
 	font-size: 21px;
 	color: #D2482E;
 	line-height: 25px;
+	margin: 0 0 7px 0;
 }
-
-
-
+.testimonios-box div.col-lg-4 span {
+	font-size: 20px;
+	color: #6E6359;
+	line-height: 25px;
+}
+.testimonios-box div.col-lg-4 p {
+	font-size: 16px;
+	color: #242424;
+	line-height: 21px;
+	margin: 2px 0 0 0;
+}
+.fa-chevron-right {
+	color: #D2482E;
+}
+.testimonios-box div.col-lg-4 a {
+	font-size: 18px;
+	color: #4292DF;
+	line-height: 18px;
+	position: absolute;
+	bottom: 0px;
+}
+/*--- Footer ---*/
+.site-footer {
+	overflow: hidden;
+}
+.site-info {
+	background: url("/wp-content/themes/cop/img/footer-bg.png") repeat-x;
+	height: 299px;
+}
+.footer-box-2 {
+	background: #584545;
+	height: 144px;
+}
+.footer-box-3 {
+	height: 61px;
+	background: #C4C24C;
+}
 
 
 
