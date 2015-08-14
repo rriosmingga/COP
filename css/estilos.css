@@ -166,31 +166,123 @@ p {
 .site-footer {
 	overflow: hidden;
 }
-.site-info {
+#colophon {
 	background: url("/wp-content/themes/cop/img/footer-bg.png") repeat-x;
 	height: 299px;
 }
-.footer-box-2 {
+.bg-footer-2 {
 	background: #584545;
+}
+.site-info, .footer-box-2, .footer-box-3 {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.footer-box-2 {
 	height: 144px;
 }
 .footer-box-3 {
 	height: 61px;
+}
+.cerrucho-footer {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.bg-footer-3 {
 	background: #C4C24C;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+.site-info .col-lg-3 .input-group span i {
+	font-size: 1em;
+}
+.site-info .col-lg-3  {
+	padding: 0;
+}
+.site-info div ul h3, .site-info .form-horizontal h3 {
+	font-size: 25px;
+	color: #C4C24C;
+	line-height: 31px;
+}
+.site-info div ul {
+	margin: 0;
+}
+.btn {
+	text-shadow: none;
+	box-shadow: none;
+	border: none;
+	margin: 10px 5px 5px 5px;
+}
+.enviar-btn {	
+	background: #D2482E;
+	color: #fff;
+	margin: 10px 5px 5px 15px;
+}
+.form-footer .input-group {
+	max-width: 61%;
+	margin: 7px 0 0 0;
+}
+.tel-box-input {
+	font-size: 20px;
+	color: #F9F9F9;
+	line-height: 20px;
+}
+.tel-box-input:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.tel-box-input i {
+	margin: 0px 3px 0px 0px;
+}
+.form-footer .input-group:first-child span {
+	width: 38px;
+}
+.site-info .col-lg-3 ul li {
+	list-style: none;
+}
+.site-info .col-lg-3 ul li a {
+	font-size: 16px;
+	color: #C4C24C;
+	line-height: 24px;
+}
+.footer-box-2 h3, .footer-box-2 p  {
+	color: #fff;
+	line-height: 19px;
+	font-family: "Museo Sans", sans-serif;
+}
+.footer-box-2 p {
+	font-size: 15px;
+}
+.footer-box-2 h3 {
+	font-size: 28px;
+	margin: 40px 0 0 0;
+}
+.footer-box-2 .col-lg-4 {
+	margin: 20px 0px 0px;
+}
+.footer-box-2 .col-lg-3 {
+	margin: 20px 0px 0px;
+}
+.redes-sociales-box li {
+	list-style: none;
+	float: left;
+	margin: 33px 20px 0px 0px;
+}
+.redes-sociales-box li a {
+	color: #fff;
+}
+.redes-sociales-box {
+	margin: 0;
+	padding: 0;
+}
+.footer-box-3 div p, .footer-box-3 div a {
+	font-size: 16px;
+	color: #584545;
+	display: inline;
+	margin: 0 5px;
+}
+.footer-box-3 div {
+	margin: 0px;
+	padding: 18px 0 0 0;
+	text-align: center;
+}
 
 
 
