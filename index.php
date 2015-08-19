@@ -1,3 +1,11 @@
+	
+
+	<div id="content" class="site-content">
+	<?php 
+    echo do_shortcode("[metaslider id=35]"); 
+		 ?>
+
+
 <?php
 
 get_header(); ?>

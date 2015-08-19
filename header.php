@@ -53,10 +53,7 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-		<?php 
-    echo do_shortcode("[metaslider id=35]"); 
-		 ?>
-
+	
 
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'cop' ); ?></a>
@@ -78,7 +75,9 @@
 		
 	</header><!-- #masthead -->
 
-	<div id="content" class="site-content">
+
+
+
 		
 		
 	 	
