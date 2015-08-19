@@ -1,5 +1,7 @@
 /*--- Estilos Generales ---*/
-
+body {
+	margin: 108px 0 0 0;
+}
 @font-face {
   font-family: 'Museo Sans';
   src: url('/wp-content/themes/cop/fonts/MuseoSans_500.otf');
@@ -21,11 +23,65 @@ p {
 	max-width: 1280px;
 	margin: 0 auto;
 }
+a.leermas-btn:visited {
+	color: #fff;
+}
+nav.copnav {
+	background: #C5C05A; 
+	height: 108px;
+}
 /*---- Navegación ----*/
 
 .navbox {
 	background: #C5C05A; 
 	height: 108px;
+}
+.logo-cop {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: -56px;
+	z-index: 10;
+}
+.container-fluid {
+	max-width: 1280px;
+	margin: 0 auto;
+	position: relative;
+	top: 56px;
+}
+.navbar-fixed-top {
+	border-width: 0;
+}
+.navbar-default .navbar-nav > li > a {
+	font-family: 'Museo Sans', Sans-Serif;
+    font-size: 15px;
+    color: #FFF;
+    text-decoration: none;
+    background-color: none;
+}
+.navbar-default .navbar-nav > li {
+	height: 52px;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #FFF;
+    text-decoration: none;
+    background-color: none;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+	color: #FFF;
+    text-decoration: none;
+    background: none;
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+	border-color: #C5C05A;
+}
+.navbar-nav > li > a:hover {
+	background-color: none;
+}
+.navbar-nav > li:hover {
+	border-bottom: solid #D2482E 7px;
+	transition: all .1s linear;
+	transform-origin: bottom;
 }
 .navbox-centrador {
 	max-width: 1280px;
@@ -56,7 +112,24 @@ p {
  .navbox .navbox-centrador .row .col-lg-9 {
 	 top: 65px;
  }
-
+ .navbar-collapse.collapse.in {
+	 background: #C5C05A;
+ }
+.dropdown-menu > li > a {
+	color: #fff;
+	font-family: 'Museo Sans', Sans-Serif;
+	background: #C5C05A;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+	background: #D2482E;
+	color: #fff;
+}
+.navbar-nav > li > .dropdown-menu {
+	background: #C5C05A;
+}
+.dropdown-menu {
+	padding: 0;
+}
 /*---- Home ----*/
 
 .calugas-home-box {
@@ -102,6 +175,10 @@ p {
 	font-size: 17px;
 	line-height: 22px;
 }
+.row.equipo-home {
+	margin-right: 0px;
+	margin-left: 0px;
+}
 .leermas-btn {
 	position: relative;
 	background: #776259;
@@ -126,7 +203,7 @@ p {
     width: 20em;
 }
 .testimonios-box div.col-lg-4 {
-	height: 40em;
+	height: 28em;
 }
 .testimonios-box div.col-lg-4 img {
 	margin: 0px auto;

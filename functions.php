@@ -160,3 +160,25 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+
+//Load the theme CSS
+function theme_styles() {
+    wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css');
+    wp_enqueue_style( 'cop', get_template_directory_uri() . '/css/estilos.css');
+}
+//Load the theme JS
+function theme_js() {
+    //Adds JQuery from Google's CDN.
+    if (!is_admin()) add_action("wp_enqueue_scripts", "my_jquery_enqueue", 11);
+    function my_jquery_enqueue() {
+    wp_deregister_script('jquery');
+    wp_register_script('jquery', "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js", false, null);
+    wp_enqueue_script('jquery');
+}
+    wp_enqueue_script( 'bootstrapjs', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '', true );
+}
+
+add_action( 'wp_enqueue_scripts', 'theme_styles' );
+add_action( 'wp_enqueue_scripts', 'theme_js' );
+
